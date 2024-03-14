@@ -1,0 +1,238 @@
+.mobileView {
+  background-image: url('https://img.freepik.com/free-photo/empty-blackboard_53876-147512.jpg?w=1060&t=st=1710425593~exp=1710426193~hmac=88c22817e52bc98bdaf5a1ae12c238d21eafa07e5950cbaf61ee902450943be7');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  padding: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .mobileView {
+    display: none;
+  }
+}
+
+.headingPart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mobileHeading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+@media screen and (min-width: 768px) {
+  .mobileHeading {
+    font-size: 45px;
+  }
+}
+
+.mobilePara {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .mobilePara {
+    font-size: 25px;
+  }
+}
+
+.mobileSpan {
+  color: #ffff1a;
+}
+
+.PlayerCon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mobileBtn {
+  margin-top: 15px;
+  background-color: #cc0000;
+  color: #ffffff;
+  font-family: 'Roboto';
+  padding: 10px 12px 10px 12px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+  border: none;
+  align-items: center;
+}
+
+.mobileBtn1 {
+  background-color: #cc0000;
+  color: #ffffff;
+  font-family: 'Roboto';
+  padding: 10px 12px 10px 12px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .mobileBtn1 {
+    font-size: 16px;
+  }
+}
+
+.mobileCon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .mobileCon {
+    display: flex;
+    margin-top: 5px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.mobilePara1 {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+@media screen and (min-width: 768px) {
+  .mobilePara1 {
+    font-size: 20px;
+  }
+}
+
+.mobileTalkToUs {
+  background-color: #00b300;
+  display: flex;
+  padding: 8px;
+  border-radius: 5px;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .mobileTalkToUs {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    align-self: flex-start;
+    padding: 5px 12px 5px 12px;
+  }
+}
+
+.mobileIcon {
+  width: 18px;
+  size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .mobileIcon {
+    width: 20px;
+  }
+}
+
+.whatsMsg {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+  margin-left: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .whatsMsg {
+    font-size: 20px;
+  }
+}
+
+.mobileDescription {
+  background-color: #b30000;
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+}
+
+.desHead {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.detailsCon {
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+}
+
+.detailsHead {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.detailsPar {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.desktopView {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .desktopView {
+    background-image: url('https://img.freepik.com/free-photo/empty-blackboard_53876-147512.jpg?w=1060&t=st=1710425593~exp=1710426193~hmac=88c22817e52bc98bdaf5a1ae12c238d21eafa07e5950cbaf61ee902450943be7');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+}
+
+.detailsPart {
+  display: flex;
+  flex-direction: column;
+}
+
+.deskFeatures {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.listItem {
+  list-style-type: circle;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.deskPlayer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
