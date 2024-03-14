@@ -37,3 +37,7 @@ Ensure the website is responsive. Use HTML5, CSS3, and optionally React. Code sh
 ## Evaluation
 
 Focus on visual similarity, responsiveness, and code quality
+
+## Ouput 
+https://task536.ccbp.tech/
+
